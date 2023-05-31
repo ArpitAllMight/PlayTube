@@ -1,0 +1,135 @@
+@media only screen and (max-width: 1024px) {
+  nav.left.itemFlex > i {
+    display: none;
+  }
+  nav.middle.itemFlex .redIcon {
+    display: none;
+  }
+  nav.right.itemFlex i {
+    display: none;
+  }
+  section.sideBar {
+    display: none;
+  }
+  .bannerHeading {
+    bottom: 20px;
+    left: 20px;
+  }
+  .bannerHeading i {
+    font-size: 30px;
+  }
+  .bannerHeading h4 {
+    font-size: 20px;
+  }
+  .bannerHeading p {
+    font-size: 18px;
+    margin: 10px 0px;
+  }
+  .bannerHeading a {
+    padding: 8px 15px;
+    font-size: 15px;
+  }
+  #playVid .container {
+    flex-direction: column;
+    row-gap: 50px;
+  }
+  .videoList {
+    width: -webkit-fill-available;
+  }
+  section.playVid iframe {
+    height: 66vh;
+  }
+  .videoList a img {
+    width: 280px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  nav.left.itemFlex h2 {
+    display: none;
+  }
+  .bannerHeading p,
+  .bannerHeading a {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  input[type="search"] {
+    text-transform: capitalize;
+    width: 100px;
+  }
+  .searchBox i.fa-sharp.fa-solid.fa-magnifying-glass.fa-fade {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .vidInformation {
+    align-items: flex-start;
+    flex-direction: column;
+    row-gap: 15px;
+  }
+  section.playVid h4 {
+    line-height: 30px;
+  }
+  section.playVid iframe {
+    height: 44vh;
+  }
+  .videoList a {
+    flex-direction: column;
+  }
+  .videoList a img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  header {
+    padding: 10px 10px;
+  }
+  nav.left.itemFlex h2 {
+    font-size: 18px;
+  }
+  .setImg {
+    width: 35px;
+  }
+  .descriptionContainer img {
+    width: 40px;
+  }
+  .bannerHeading {
+    bottom: 15px;
+    left: 15px;
+  }
+  .bannerHeading h4 {
+    font-size: 18px;
+  }
+  .publisher {
+    align-items: flex-start;
+    column-gap: 15px;
+  }
+  .mainVidInfo {
+    align-items: flex-start;
+    flex-direction: column;
+    row-gap: 8px;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .searchBox {
+    padding: 8px 10px;
+  }
+  input[type="search"] {
+    width: 65px;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  section.banner .container {
+    margin: 15px 10px;
+  }
+  .videoContainer {
+    margin: 10px;
+  }
+}

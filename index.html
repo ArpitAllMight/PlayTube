@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PlayTube</title>
+    <link rel="shortcut icon" href="svg/video.svg" type="icon/svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.4.0/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.4.0/css/sharp-solid.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.4.0/css/sharp-regular.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://site-assets.fontawesome.com/releases/v6.4.0/css/sharp-light.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <header class="itemFlex">
+      <nav class="left itemFlex">
+        <i class="fa-solid fa-bars-sort fa-beat colorChange" id="hamBurger"></i>
+        <a href="index.html">
+          <i class="fa-sharp fa-solid fa-circle-play fa-shake redIcon"></i>
+          <h2 class="colorChange">PlayTube</h2>
+        </a>
+      </nav>
+      <label id="darkMode"></label>
+      <nav class="middle itemFlex">
+        <div class="searchBox itemFlex">
+          <input type="search" placeholder="Search" />
+          <i
+            class="fa-sharp fa-solid fa-magnifying-glass fa-fade colorChange"
+          ></i>
+        </div>
+        <i
+          class="fa-sharp fa-solid fa-circle-microphone-lines fa-spin redIcon"
+        ></i>
+      </nav>
+      <nav class="right itemFlex">
+        <i class="fa-sharp fa-solid fa-video-plus fa-fade redIcon"></i>
+        <i class="fa-sharp fa-solid fa-square-info fa-bounce colorChange"></i>
+        <i class="fa-sharp fa-solid fa-bell fa-flip colorChange"></i>
+        <img src="webp/ProfilePic1.webp" alt="ProfilePic" class="setImg" />
+      </nav>
+    </header>
+    <main>
+      <!-- SideBar -->
+      <section class="sideBar">
+        <div class="container">
+          <div class="shortcutLinks itemFlex">
+            <a href="#">
+              <i class="fa-sharp fa-solid fa-house fa-shake redIcon"></i>
+              <p>Home</p>
+            </a>
+            <a href="#">
+              <i class="fa-sharp fa-solid fa-fire-flame fa-flip"></i>
+              <p>Explore</p>
+            </a>
+            <a href="#">
+              <i
+                class="fa-sharp fa-solid fa-rectangle-history-circle-plus fa-beat"
+              ></i>
+              <p>Subscription</p>
+            </a>
+            <a href="#">
+              <i class="fa-sharp fa-solid fa-films fa-fade"></i>
+              <p>Library</p>
+            </a>
+            <a href="#">
+              <i class="fa-sharp fa-solid fa-eye fa-flip"></i>
+              <p>History</p>
+            </a>
+            <a href="#">
+              <i class="fa-sharp fa-solid fa-camcorder fa-bounce"></i>
+              <p>Playlist</p>
+            </a>
+            <a href="#">
+              <i class="fa-sharp fa-solid fa-messages fa-shake"></i>
+              <p>Messages</p>
+            </a>
+            <a href="#">
+              <i class="fa-sharp fa-solid fa-circle-chevron-down fa-beat"></i>
+              <p>Show More</p>
+            </a>
+            <hr />
+          </div>
+          <div class="subscribeList">
+            <h3 class="colorChange">Subscribed</h3>
+            <a href="#">
+              <img
+                src="webp/ProfilePic2.webp"
+                alt="ProfilePic"
+                class="setImg"
+              />
+              <p>Winona Ryder</p>
+            </a>
+            <a href="#">
+              <img
+                src="webp/ProfilePic3.webp"
+                alt="ProfilePic"
+                class="setImg"
+              />
+              <p>David Harbour</p>
+            </a>
+            <a href="#">
+              <img
+                src="webp/ProfilePic4.webp"
+                alt="ProfilePic"
+                class="setImg"
+              />
+              <p>Natalia Dyer</p>
+            </a>
+            <a href="#">
+              <img
+                src="webp/ProfilePic5.webp"
+                alt="ProfilePic"
+                class="setImg"
+              />
+              <p>Finn Wolfhard</p>
+            </a>
+            <a href="#">
+              <img
+                src="webp/ProfilePic6.webp"
+                alt="ProfilePic"
+                class="setImg"
+              />
+              <p>Millie Bobby</p>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="banner">
+        <div class="container">
+          <img src="webp/Banner.webp" alt="Banner" />
+          <div class="bannerHeading">
+            <div class="heading">
+              <i class="fa-sharp fa-solid fa-tractor fa-shake"></i>
+              <h4>Eat, sleep, drift, repeat.</h4>
+            </div>
+            <p>
+              I am emotional about engines, if you hurt my car, you hurt my
+              heart.
+            </p>
+            <a>Subscribe Now</a>
+          </div>
+        </div>
+        <div class="videoContainer">
+          <a href="playVid.html" target="_blank" class="video">
+            <div class="thumbnail">
+              <img src="webp/Thumbnail1.webp" alt="Thumbnail" />
+            </div>
+            <div class="descriptionContainer">
+              <img src="webp/ProfilePic7.webp" alt="ProfilePic" />
+              <div class="discription">
+                <p class="colorChange">
+                  Take care of your car in the garage, and the car will take
+                  care of you on the road.
+                </p>
+                <p>Sonic Boom</p>
+                <p>20k views &bull; 1 day ago</p>
+              </div>
+            </div>
+          </a>
+          <a class="video">
+            <div class="thumbnail">
+              <img src="webp/Thumbnail2.webp" alt="Thumbnail" />
+            </div>
+            <div class="descriptionContainer">
+              <img src="webp/ProfilePic8.webp" alt="ProfilePic" />
+              <div class="discription">
+                <p class="colorChange">
+                  Asking someone else to drive your sports car is like asking
+                  someone else to kiss your girlfriend.
+                </p>
+                <p>Sonic Boom</p>
+                <p>22k views &bull; 2 day ago</p>
+              </div>
+            </div>
+          </a>
+          <a class="video">
+            <div class="thumbnail">
+              <img src="webp/Thumbnail3.webp" alt="Thumbnail" />
+            </div>
+            <div class="descriptionContainer">
+              <img src="webp/ProfilePic9.webp" alt="ProfilePic" />
+              <div class="discription">
+                <p class="colorChange">
+                  Among all the machines, motorcar is my favorite machine.
+                </p>
+                <p>Sonic Boom</p>
+                <p>23k views &bull; 3 day ago</p>
+              </div>
+            </div>
+          </a>
+          <a class="video">
+            <div class="thumbnail">
+              <img src="webp/Thumbnail4.webp" alt="Thumbnail" />
+            </div>
+            <div class="descriptionContainer">
+              <img src="webp/ProfilePic10.webp" alt="ProfilePic" />
+              <div class="discription">
+                <p class="colorChange">
+                  I am so obsessed with the cars that sometimes I feel like my
+                  heart is not a muscle, it's an engine.
+                </p>
+                <p>Sonic Boom</p>
+                <p>24k views &bull; 4 day ago</p>
+              </div>
+            </div>
+          </a>
+          <a class="video">
+            <div class="thumbnail">
+              <img src="webp/Thumbnail5.webp" alt="Thumbnail" />
+            </div>
+            <div class="descriptionContainer">
+              <img src="webp/ProfilePic11.webp" alt="ProfilePic" />
+              <div class="discription">
+                <p class="colorChange">
+                  I love the wheels, I mean steering wheel.
+                </p>
+                <p>Sonic Boom</p>
+                <p>25k views &bull; 5 day ago</p>
+              </div>
+            </div>
+          </a>
+          <a class="video">
+            <div class="thumbnail">
+              <img src="webp/Thumbnail6.webp" alt="Thumbnail" />
+            </div>
+            <div class="descriptionContainer">
+              <img src="webp/ProfilePic12.webp" alt="ProfilePic" />
+              <div class="discription">
+                <p class="colorChange">Life is too short for boring cars.</p>
+                <p>Sonic Boom</p>
+                <p>26k views &bull; 6 day ago</p>
+              </div>
+            </div>
+          </a>
+          <a class="video">
+            <div class="thumbnail">
+              <img src="webp/Thumbnail7.webp" alt="Thumbnail" />
+            </div>
+            <div class="descriptionContainer">
+              <img src="webp/ProfilePic13.webp" alt="ProfilePic" />
+              <div class="discription">
+                <p class="colorChange">
+                  The best therapy is a long drive in your favorite car.
+                </p>
+                <p>Sonic Boom</p>
+                <p>27k views &bull; 7 day ago</p>
+              </div>
+            </div>
+          </a>
+          <a class="video">
+            <div class="thumbnail">
+              <img src="webp/Thumbnail8.webp" alt="Thumbnail" />
+            </div>
+            <div class="descriptionContainer">
+              <img src="webp/ProfilePic14.webp" alt="ProfilePic" />
+              <div class="discription">
+                <p class="colorChange">You don’t drive a car, you wear it.</p>
+                <p>Sonic Boom</p>
+                <p>28k views &bull; 8 day ago</p>
+              </div>
+            </div>
+          </a>
+          <a class="video">
+            <div class="thumbnail">
+              <img src="webp/Thumbnail9.webp" alt="Thumbnail" />
+            </div>
+            <div class="descriptionContainer">
+              <img src="webp/ProfilePic15.webp" alt="ProfilePic" />
+              <div class="discription">
+                <p class="colorChange">
+                  Four wheels move the body, two wheels move the soul.
+                </p>
+                <p>Sonic Boom</p>
+                <p>29k views &bull; 9 day ago</p>
+              </div>
+            </div>
+          </a>
+          <a class="video">
+            <div class="thumbnail">
+              <img src="webp/Thumbnail10.webp" alt="Thumbnail" />
+            </div>
+            <div class="descriptionContainer">
+              <img src="webp/ProfilePic16.webp" alt="ProfilePic" />
+              <div class="discription">
+                <p class="colorChange">I don't race cars, I race engines.</p>
+                <p>Sonic Boom</p>
+                <p>30k views &bull; 10 day ago</p>
+              </div>
+            </div>
+          </a>
+          <a class="video">
+            <div class="thumbnail">
+              <img src="webp/Thumbnail11.webp" alt="Thumbnail" />
+            </div>
+            <div class="descriptionContainer">
+              <img src="webp/ProfilePic17.webp" alt="ProfilePic" />
+              <div class="discription">
+                <p class="colorChange">
+                  Cars are the sculptures of our everyday lives.
+                </p>
+                <p>Sonic Boom</p>
+                <p>31k views &bull; 11 day ago</p>
+              </div>
+            </div>
+          </a>
+          <a class="video">
+            <div class="thumbnail">
+              <img src="webp/Thumbnail12.webp" alt="Thumbnail" />
+            </div>
+            <div class="descriptionContainer">
+              <img src="webp/ProfilePic18.webp" alt="ProfilePic" />
+              <div class="discription">
+                <p class="colorChange">
+                  A car is like a mother-in-law - if you let it, it will rule
+                  your life.
+                </p>
+                <p>Sonic Boom</p>
+                <p>32k views &bull; 12 day ago</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </section>
+    </main>
+    <div class="scrollToTop">
+      <i class="fa-sharp fa-solid fa-circle-chevron-up fa-fade redIcon"></i>
+    </div>
+    <script src="js/custom.js" defer></script>
+  </body>
+</html>
