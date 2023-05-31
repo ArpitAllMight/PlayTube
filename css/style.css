@@ -307,6 +307,7 @@ section.playVid {
   flex-grow: 1;
   padding: 0 15px;
   padding-top: 15px;
+  padding-bottom: 15px;
 }
 section.rightSideBar {
   padding-right: 15px;
